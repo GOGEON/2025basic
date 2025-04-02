@@ -96,7 +96,7 @@ public class Main {
                     list.delete(deleteword);
                 }
                 line = br.readLine();
-                list.print(); // 삭제 후 리스트 출력
+                list.print();
                 System.out.println("-------------------------------------------");
 
                 list = new SList();
